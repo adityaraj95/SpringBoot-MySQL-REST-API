@@ -23,3 +23,14 @@ Import the present sql file from root directory of the project into the new crea
 
 - open `src/main/resources/application.yml` from the root directory
 - change username and password of the database according to your setup
+
+### 4. Build and run the app using Maven
+
+ `mvn pakage`
+ `java -jar target/LibraryApplication-1.0.0.jar`
+ 
+ Alternatively you can directly run the application using -
+ 
+ `mvn spring-boot:run`
+ 
+ ### The app will start at [localhost:8080/rest/books/all](http://localhost:8080/rest/books/all)
