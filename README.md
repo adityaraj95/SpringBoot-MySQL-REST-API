@@ -10,4 +10,4 @@ MySQL - 5.x.x
 
 ### Clone the project
 
-### `git clone https://github.com/adityaraj95/SpringBoot-MySQL-REST-API.git'
+### `git clone https://github.com/adityaraj95/nychoropleth.git`
