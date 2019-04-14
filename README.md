@@ -26,12 +26,8 @@ Import the present sql file from root directory of the project into the new crea
 
 ### 4. Build and run the app using Maven
 
- `mvn pakage`
- `java -jar target/LibraryApplication-1.0.0.jar`
- 
- Alternatively you can directly run the application using -
- 
- `mvn spring-boot:run`
+ Open the root directory in InteliJ/Eclipse or any IDE you like
+ Open `\src\main\java\com.ac968.Library\LibraryApplication` and run the application
  
  ### The app will start at [http://localhost:8080/rest/books/all](http://localhost:8080/rest/books/all)
  
