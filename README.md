@@ -33,4 +33,11 @@ Import the present sql file from root directory of the project into the new crea
  
  `mvn spring-boot:run`
  
- ### The app will start at [localhost:8080/rest/books/all](http://localhost:8080/rest/books/all)
+ ### The app will start at [http://localhost:8080/rest/books/all](http://localhost:8080/rest/books/all)
+ 
+ # Functionalities of the REST API
+ 
+ ## The app defines CRUDE APIs
+ - GET /rest/books/all
+ - POST /rest/books/{Barcode}
+ - DELETE /rest/books/{Barcode}
