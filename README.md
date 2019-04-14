@@ -21,5 +21,5 @@ Import the present sql file from root directory of the project into the new crea
 
 ### 3. Change mysql username and password as per your installation
 
-- open src/main/resources/application.yml
+- open `src/main/resources/application.yml` from the root directory
 - change username and password of the database according to your setup
