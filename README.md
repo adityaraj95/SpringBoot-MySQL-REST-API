@@ -10,4 +10,4 @@ MySQL - 5.x.x
 
 ### Clone the project
 
-`git clone .git'
+## `git clone .git'
