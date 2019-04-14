@@ -38,6 +38,6 @@ Import the present sql file from root directory of the project into the new crea
  # Functionalities of the REST API
  
  ## The app defines CRUDE APIs
- `- GET /rest/books/all`
- `- POST /rest/books/{Barcode}`
- `- DELETE /rest/books/{Barcode}`
+ * `GET /rest/books/all`
+ * `POST /rest/books/{Barcode}`
+ * `DELETE /rest/books/{Barcode}`
