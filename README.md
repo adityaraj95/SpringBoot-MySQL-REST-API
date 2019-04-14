@@ -41,3 +41,7 @@ Import the present sql file from root directory of the project into the new crea
  * `GET /rest/books/all`
  * `POST /rest/books/{Barcode}`
  * `DELETE /rest/books/{Barcode}`
+ 
+ # Testing
+ 
+ You can test the project using [POSTMAN](https://www.getpostman.com/) or any other rest client.
