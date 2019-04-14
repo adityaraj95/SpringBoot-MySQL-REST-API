@@ -11,3 +11,15 @@ MySQL - 5.x.x
 ### 1. Clone the project
 
 ### `git clone https://github.com/adityaraj95/SpringBoot-MySQL-REST-API.git`
+
+### 2. Setting up the Database
+
+Create a new database named "library"
+### `create database library`
+
+Import the present sql file from root directory of the project into the new created database.
+
+### 3. Change mysql username and password as per your installation
+
+-open src/main/resources/application.yml
+-change username and password of the database according to your setup
