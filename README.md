@@ -8,6 +8,6 @@ MySQL - 5.x.x
 
 ## Steps for Installation
 
-### Clone the project
+### 1.Clone the project
 
 ### `git clone https://github.com/adityaraj95/SpringBoot-MySQL-REST-API.git`
