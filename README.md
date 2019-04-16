@@ -35,8 +35,18 @@ Import the present sql file from root directory of the project into the new crea
  
  ## The app defines CRUDE APIs
  * `GET /rest/books/all`
+ ![GET DEMO](https://github.com/adityaraj95/SpringBoot-MySQL-REST-API/blob/master/src/test/java/com/ac968/Library/GET.PNG)
+ 
  * `POST /rest/books/load`
+ ![POST DEMO](https://github.com/adityaraj95/SpringBoot-MySQL-REST-API/blob/master/src/test/java/com/ac968/Library/POST.PNG)
+ 
  * `DELETE /rest/books/{Barcode}`
+ ![DELETE DEMO](https://github.com/adityaraj95/SpringBoot-MySQL-REST-API/blob/master/src/test/java/com/ac968/Library/DELETE.PNG)
+ 
+ * GET AFTER DELETE REQUEST
+ 
+ ![AFTER DELETE]https://github.com/adityaraj95/SpringBoot-MySQL-REST-API/blob/master/src/test/java/com/ac968/Library/GET_AFTERDELETE.PNG)
+ 
  
  # Testing
  
