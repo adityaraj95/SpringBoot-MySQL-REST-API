@@ -50,7 +50,7 @@ Import the present sql file from root directory of the project into the new crea
  
 ### GET AFTER DELETE REQUEST
  
- ![AFTER DELETE]https://github.com/adityaraj95/SpringBoot-MySQL-REST-API/blob/master/src/test/java/com/ac968/Library/GET_AFTERDELETE.PNG)
+![AFTER DELETE](https://github.com/adityaraj95/SpringBoot-MySQL-REST-API/blob/master/src/test/java/com/ac968/Library/GET_AFTERDELETE.PNG)
  
  
  # Testing
