@@ -33,17 +33,22 @@ Import the present sql file from root directory of the project into the new crea
  
  # Functionalities of the REST API
  
- ## The app defines CRUDE APIs
- * `GET /rest/books/all`
+ The following Screenshots are the working of the REST API using POSTMAN ( REST API CLIENT)
+ 
+ ### `GET /rest/books/all`
+ 
  ![GET DEMO](https://github.com/adityaraj95/SpringBoot-MySQL-REST-API/blob/master/src/test/java/com/ac968/Library/GET.PNG)
  
- * `POST /rest/books/load`
+ 
+### `POST /rest/books/load`
+
  ![POST DEMO](https://github.com/adityaraj95/SpringBoot-MySQL-REST-API/blob/master/src/test/java/com/ac968/Library/POST.PNG)
  
- * `DELETE /rest/books/{Barcode}`
+### `DELETE /rest/books/{Barcode}`
+
  ![DELETE DEMO](https://github.com/adityaraj95/SpringBoot-MySQL-REST-API/blob/master/src/test/java/com/ac968/Library/DELETE.PNG)
  
- * GET AFTER DELETE REQUEST
+### GET AFTER DELETE REQUEST
  
  ![AFTER DELETE]https://github.com/adityaraj95/SpringBoot-MySQL-REST-API/blob/master/src/test/java/com/ac968/Library/GET_AFTERDELETE.PNG)
  
