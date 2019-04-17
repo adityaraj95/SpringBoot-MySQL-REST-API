@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Apr 17, 2019 at 01:25 AM
+-- Generation Time: Apr 17, 2019 at 08:26 PM
 -- Server version: 5.7.23
 -- PHP Version: 7.2.10
 
@@ -46,7 +46,8 @@ CREATE TABLE IF NOT EXISTS `books` (
 
 INSERT INTO `books` (`B_Title`, `Barcode`, `B_author`, `B_pages`, `Status`, `ISBN`, `Comments`) VALUES
 ('The Sicilian Accelerated Dragon - 20th Anniversary Edition', 12367123, ' Peter Heine Nielsen , Carsten Hansen ', 912, 1, '171785295', 'Nice book on Chess Silician Method'),
-('How to Play Chess', 712399123, 'Claire Summerscale', 72, 1, '1465457674', 'Learn how to play basic');
+('How to Play Chess', 712399123, 'Claire Summerscale', 72, 1, '9123456789123', 'Learn how to play basic'),
+('My 60 Memorable Games', 178012322, 'Bobby Fischer', 384, 1, '9781906388300', 'Amazing book by Bobby Fisher Himeself!');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
