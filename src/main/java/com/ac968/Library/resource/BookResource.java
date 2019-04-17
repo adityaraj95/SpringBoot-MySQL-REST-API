@@ -26,7 +26,6 @@ public class BookResource {
 
     @PostMapping(value = "/load")
     public List<books> persist(@RequestBody final books book) {
-
         bookRepository.save(book);
         return bookRepository.findAll();
     }

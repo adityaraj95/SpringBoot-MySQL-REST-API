@@ -17,7 +17,7 @@ public class books {
     private String title;
 
     @Column(name="ISBN")
-    private Integer ISBN;
+    private Long ISBN;
 
     @Column(name="B_pages")
     private Integer Pages;
@@ -27,6 +27,10 @@ public class books {
 
     @Column(name="B_author")
     private String author;
+
+    @Column(name="Comments")
+    private String comment;
+
 
     public books() {
     }
@@ -47,11 +51,11 @@ public class books {
         this.title = title;
     }
 
-    public Integer getISBN() {
+    public Long getISBN() {
         return ISBN;
     }
 
-    public void setISBN(Integer ISBN) {
+    public void setISBN(Long ISBN) {
         this.ISBN = ISBN;
     }
 
@@ -78,6 +82,15 @@ public class books {
     public void setAuthor(String author) {
         this.author = author;
     }
+
+    public String getComment() {
+        return comment;
+    }
+
+    public void setComment(String comment) {
+        this.comment = comment;
+    }
+
 }
 
 
