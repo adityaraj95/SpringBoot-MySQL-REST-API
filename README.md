@@ -19,6 +19,8 @@ Create a new database named "library"
 
 Import the present sql file from root directory of the project into the new created database.
 
+library should have a Table named "books" after import is complete. 
+
 ### 3. Change mysql username and password as per your installation
 
 - open `src/main/resources/application.yml` from the root directory
